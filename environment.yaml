@@ -1,7 +1,14 @@
 name: ldm
 channels:
-  - pytorch
-  - defaults
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+    # - defaults
+————————————————
+版权声明：本文为CSDN博主「submarineas」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/submarineas/article/details/126634227
 dependencies:
   - python=3.8.5
   - pip=20.3
